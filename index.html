@@ -3,23 +3,103 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zombreaker</title>
-<style>
-  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.6; color: #1d1d27; background: #fafafc; }
-  h1 { font-size: 1.8rem; margin-bottom: 0.2rem; }
-  .links a { display: block; margin: 12px 0; padding: 14px 16px; background: #fff; border: 1px solid #ddd; border-radius: 10px; color: #1d1d27; text-decoration: none; font-weight: 600; }
-  .links a:hover { border-color: #999; }
-</style>
+<title>Zombreaker – Stop the Mutant Zombie Horde</title>
+<meta name="description" content="Zombreaker is a free one-finger zombie shooter. When zombies get close, they fuse into monsters. Dodge, auto-shoot and stop the horde.">
+<meta name="theme-color" content="#0a0c17">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zombreaker">
+<meta property="og:title" content="Zombreaker – Stop the Mutant Zombie Horde">
+<meta property="og:description" content="A free one-finger zombie shooter. When zombies get close, they fuse into monsters.">
+<meta property="og:image" content="https://zombreakers.github.io/zombreaker/assets/hero.jpg">
+<meta property="og:url" content="https://zombreakers.github.io/zombreaker/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Zombreaker</h1>
-<p>A free mobile action game: dodge the zombie horde while your weapons fire on their own.</p>
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="./"><img src="assets/icon-256.png" alt="" width="36" height="36"><span>Zombreaker</span></a>
+    <div class="nav-links">
+      <a href="./" aria-current="page">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </div>
+  </nav>
+</header>
 
-<div class="links">
-  <a href="support.html">Support</a>
-  <a href="privacy-policy.html">Privacy Policy</a>
-</div>
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <img class="app-icon" src="assets/icon-256.png" alt="Zombreaker app icon" width="96" height="96">
+      <h1>Zombreaker</h1>
+      <p class="tagline">Merge · Mutate · Survive</p>
+      <p class="lead">When zombies get close, they fuse into monsters. Dodge with one finger, let your weapons fire on their own and stop the horde before the fusion ring fills.</p>
+      <span class="pill">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
+        Coming soon to the App Store
+      </span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="fusion">
+      <div>
+        <p class="kicker">The twist</p>
+        <h2>Enemies <span>fuse</span></h2>
+        <p>Two zombies merge into something stronger, and those merge into something worse. Split them up or wipe them out before the fusion ring fills. Break a fusion in time for a reward, or face a far stronger enemy.</p>
+      </div>
+      <img src="assets/fusion.jpg" alt="A soldier fires at a giant fused zombie rising from the horde" width="1100" height="622" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="kicker">What's inside</p>
+    <h2>Built for quick, wild runs</h2>
+    <p class="intro">Short runs of 4–9 minutes, one finger to play. Your weapons aim and fire on their own while you move, collect coins and pick a new power every level.</p>
+    <div class="features">
+      <div class="feature"><div class="num">50</div><h3>Stages</h3><p>5 worlds and 25 places, from flower meadows and frozen taiga to lava fields and a Mars outpost.</p></div>
+      <div class="feature"><div class="num">11</div><h3>Weapons</h3><p>Rifles, lightning staffs, rocket launchers, laser beams and 8 legendary evolutions.</p></div>
+      <div class="feature"><div class="num">5</div><h3>Heroes</h3><p>Each with their own weapon and perk, plus skins and permanent upgrades.</p></div>
+      <div class="feature"><div class="num">5</div><h3>World bosses</h3><p>A boss ends every stage, and a giant world boss waits at the end of each world.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="kicker">Screenshots</p>
+    <h2>See it in action</h2>
+    <div class="gallery" tabindex="0" aria-label="Screenshots, scroll sideways">
+      <img src="assets/shot-1.jpg" alt="Choosing a hero in the main menu" width="540" height="1170" loading="lazy">
+      <img src="assets/shot-2.jpg" alt="Weapons and upgrades" width="540" height="1170" loading="lazy">
+      <img src="assets/shot-3.jpg" alt="Holding off a fusing zombie horde" width="540" height="1170" loading="lazy">
+      <img src="assets/shot-4.jpg" alt="Picking a new power after a level-up" width="540" height="1170" loading="lazy">
+      <img src="assets/shot-5.jpg" alt="Fighting a boss" width="540" height="1170" loading="lazy">
+      <img src="assets/shot-6.jpg" alt="The worlds and stages" width="540" height="1170" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta">
+      <h2>Questions or ideas?</h2>
+      <p>We read every message.</p>
+      <a class="btn" href="support.html">Get support</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <nav aria-label="Footer">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="mailto:zombreakersupport@gmail.com">zombreakersupport@gmail.com</a>
+    </nav>
+    <span class="copy">© 2026 Zombreaker</span>
+  </div>
+</footer>
 
 </body>
 </html>
